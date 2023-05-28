@@ -15,5 +15,11 @@ export const styles = StyleSheet.create({
   },
   textTask: {
     color: "#FFF",
+    marginLeft: 8,
+    marginEnd: 8,
+  },
+  textTaskDone: {
+    color: "#808080",
+    textDecorationLine: "line-through",
   },
 })
